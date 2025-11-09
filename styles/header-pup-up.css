@@ -1,0 +1,123 @@
+body {
+  font-family: arial;
+  padding-top: 70px;
+  background-color: rgb(230, 230, 230);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+p {
+  margin: 0px;
+  display: block;
+}
+
+.hamburger-menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.sanboni-logo-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  font-family: Meddon;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.js-pop-up {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 71px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 30px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 90px;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.js-pop-up.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.votaciones-button,
+.preguntas-button,
+.como-votar-button,
+.candidatos-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 3px solid red;
+  font-family:Lacquer;
+}
+
+.sanboni-logo,
+.hamburger-menu {
+  display: block;
+  height: 50px;
+  width: auto;
+
+}
+
+.rigth-section {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  width: 60px;
+  align-content: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+
+
+.rigth-section:hover {
+  background-color: rgb(209, 208, 208);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.left-section:hover {
+  background-color: rgb(209, 208, 208);
+  
+}

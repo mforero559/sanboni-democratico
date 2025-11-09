@@ -1,0 +1,190 @@
+.grafica-name {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.graph-grid{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.graph {
+  width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.line-vertical {
+  display: block;
+  background-color: white;
+  border: 3px solid red;
+  height: 615px;
+  width: 5px;
+}
+
+.linea-horizontal {
+  display: block;
+  background-color: red;
+  height: 7px;
+  width: 600px;
+  margin-top: -4px;
+}
+
+.cuadro-candidato-1,
+.cuadro-candidato-2,
+.cuadro-candidato-3,
+.cuadro-candidato-4 {
+  position: absolute;
+  width: 100px;
+  height: 10px; /* altura inicial */
+  bottom: 7px;
+  transition: height 0.3s ease; /* animación suave al crecer */
+}
+
+.cuadro-candidato-1 { background-color: #2E3A59; left: 40px; }
+.cuadro-candidato-2 { background-color: #4B2E2E; left: 180px; }
+.cuadro-candidato-3 { background-color: #1F3B2C; left: 320px; }
+.cuadro-candidato-4 { background-color: #3A2E4B; left: 460px; }
+
+.flecha {
+  position: absolute;
+  height: 30px;
+  bottom: 100px;
+  left: -5px;
+}
+
+.flecha-2 {
+  position: absolute;
+  height: 30px;
+  bottom: 200px;
+  left: -5px;
+}
+
+.flecha-3 {
+  position: absolute;
+  height: 30px;
+  bottom: 300px;
+  left: -5px;
+}
+
+.flecha-4 {
+  position: absolute;
+  height: 30px;
+  bottom: 400px;
+  left: -5px;
+}
+
+.flecha-5 {
+  position: absolute;
+  height: 30px;
+  bottom: 500px;
+  left: -5px;
+}
+
+.flecha-6 {
+  position: absolute;
+  height: 30px;
+  bottom: 600px;
+  left: -5px;
+}
+
+.votos-10 {
+  position: absolute;
+  bottom: 105px;
+  left: -35px;
+}
+
+.votos-20 {
+  position: absolute;
+  bottom: 205px;
+  left: -35px;
+}
+
+.votos-30 {
+  position: absolute;
+  bottom: 305px;
+  left: -35px;
+}
+
+.votos-40 {
+  position: absolute;
+  bottom: 405px;
+  left: -35px;
+}
+
+.votos-50 {
+  position: absolute;
+  bottom: 505px;
+  left: -35px;
+}
+
+.votos-60 {
+  position: absolute;
+  bottom: 605px;
+  left: -35px;
+}
+
+.candidato-name-1 {
+  position: absolute;
+  bottom: -28px;
+  left: 32px;
+  font-size: 23px;
+  font-family: Cabin Sketch;
+}
+
+.candidato-name-2 {
+  position: absolute;
+  bottom: -28px;
+  left: 172px;
+  font-size: 23px;
+  font-family: Cabin Sketch;
+}
+
+.candidato-name-3 {
+  position: absolute;
+  bottom: -28px;
+  left: 312px;
+  font-size: 23px;
+  font-family: Cabin Sketch;
+}
+
+.candidato-name-4 {
+  position: absolute;
+  bottom: -28px;
+  left: 452px;
+  font-size: 23px;
+  font-family: Cabin Sketch;
+}
+
+.votes-grid {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.votes-counter {
+  display: flex;
+  background-color: rgb(71, 24, 20);
+  color: white;
+  border-radius: 60px;
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: Cabin Sketch;
+}
+
+.ganador {
+  background-color: rgb(27, 77, 80);
+  color: white;
+  border-radius: 60px;
+  border: 3px solid white;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: Cabin Sketch;
+}

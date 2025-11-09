@@ -1,0 +1,178 @@
+body {
+  font-family: arial;
+  padding-top: 70px;
+  background-color: rgb(230, 230, 230);
+  margin-right: 0;
+}
+
+p {
+  margin: 0px;
+  display: block;
+}
+
+
+.school-government {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  
+  margin-top: 40px;
+  background-color: red;
+  border-radius: 60px;
+  border: 3px solid white;
+  grid-auto-rows: min-content;
+  align-items: start;
+  vertical-align: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 58px;
+  padding-right: 48px;
+}
+
+.gobierno-escolar-container {
+  height: fit-content;
+}
+
+.gobierno-escolar-title {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 26px;
+  font-family: Fascinate Inline;
+}
+
+.gobierno-escolar-content {
+  color: white;
+  font-size: 20px;
+  font-family:Lacquer;
+  line-height: 1.7;
+}
+
+.gobierno-escolar-thumbnail-container {
+  width: 650px;
+  height: 366px;
+  overflow: hidden;
+  border-radius: 12px;
+  position: relative;
+}
+
+.gobierno-escolar-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: cover;
+}
+
+
+.how-to-vote-title {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.how-to-vote-container {
+  background-color: white;
+  border: 3px solid gray;
+  border-radius: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin: 10px;
+}
+
+.how-to-vote-buttons-container {
+  display: flex;
+  margin-top: 40px;
+  background-color: red;
+  border-radius: 60px;
+  border: 3px solid white;
+  grid-auto-rows: min-content;
+  align-items: start;
+  vertical-align: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 58px;
+  padding-right: 48px;
+  color: white;
+  font-size: 17.5px;
+  justify-content: center;
+}
+
+.how-to-buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+  grid-auto-rows: min-content;
+  align-items: start;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.how-to-buttons, .how-to-buttons-preguntas {
+  background-color: white;
+  border-radius: 60px;
+  border: none;
+  height: 40px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 13px;
+  font-size: 20px;
+  font-family:Lacquer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-buttons-preguntas {
+  margin-bottom: 0px;
+}
+
+
+.how-to-vote-title{
+  font-size: 35px;
+  font-family:fascinate inline;
+}
+
+.how-to-title{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Cabin Sketch;
+  
+}
+
+.how-to-content, .how-to-content-3 {   
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family:Lacquer;
+}
+
+.how-to-content-3 {
+  margin-bottom: 0px;
+}
+
+.how-to-vote {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.intro-votes-content {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family:Lacquer;
+}
+
+

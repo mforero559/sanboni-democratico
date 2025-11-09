@@ -1,0 +1,92 @@
+.apartado-de-preguntas-title{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 30px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 60px;
+  border: 3px solid white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.grid-rigth {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.grid-left {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+}
+
+.aling-text-rigth{
+  text-align: right;
+}
+
+.preguntas-candidato-container{
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+.candidato-name {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+.input-button-grid {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.input-button-grid-rigth {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.preguntar-button {
+  height: 53px;
+  background-color: red;
+  color: white;
+  border-radius: 60px;
+  border: 3px solid white;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-family: Lacquer;
+  text-align: center;
+}
+
+.textbox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid red;
+  border-radius: 60px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.candidato-answer-left, .candidato-answer-rigth {
+  font-family: Lacquer;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

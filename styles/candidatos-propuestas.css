@@ -1,0 +1,63 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  row-gap: 30px;
+  
+  margin-top: 10px;
+  border-radius: 60px;
+
+  grid-auto-rows: min-content;
+  align-items: start;
+  vertical-align: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 58px;
+  padding-right: 48px;
+}
+
+.candidatos-container-red, .candidatos-container-white {
+  border-radius: 60px;
+  border: 3px solid white;
+  grid-auto-rows: min-content;
+  align-items: start;
+  vertical-align: top;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 58px;
+  padding-right: 48px;
+  color: white;
+  font-size: 17.5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.candidato-name {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Fascinate Inline;
+}
+
+.candidatos-proposals {
+  font-family:Lacquer;
+  font-size: 23px;
+}
+
+.candidatos-container-white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 3px solid red;
+}
+
+.candidatos-container-red {
+  background-color: red;
+}
+
+
+.candidatos-foto {
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
