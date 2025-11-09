@@ -1,6 +1,6 @@
 const sanboniButton = document.querySelector(".js-sanboni-logo-button");
 sanboniButton.addEventListener("click", function() {
-  window.location.href = "pagina-principal.html";
+  window.location.href = "index.html";
 });
 
 let popUpHTML = '';
@@ -29,7 +29,7 @@ hamburgerMenuButton.addEventListener("click", function() {
 
     const HowToVoteButton = popUp.querySelector(".js-como-votar-button");
     HowToVoteButton.addEventListener("click", function() {
-      window.location.href = "pagina-principal.html";
+      window.location.href = "index.html";
     });
 
     const preguntasButton = popUp.querySelector(".js-preguntas-button");
