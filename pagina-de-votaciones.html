@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>porton de votaciones</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/header-pup-up.css">
+    <link rel="stylesheet" href="styles/pagina-de-votaciones.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <button class="sanboni-logo-button js-sanboni-logo-button">
+          <img class="sanboni-logo" src="icons/Propuesta-Logo-SBL-ALEO-1-895x511.png">
+        </button>
+      </div>
+      
+      <p class="sanboni">Sanboni democrático</p>
+      <div class="rigth-section">
+        <button class="hamburger-menu-button">
+          <img class="hamburger-menu js-hamburger-menu-button" src="icons/hamburger-menu copia.svg">
+        </button>
+      </div>
+    </div>
+    <div class="js-pop-up">
+    </div>
+    <div class="main">
+      <div class="candidatos-profile-grid">
+        <div class="profile-picture-container-red">
+          <p class="candidato-name">Candidato 1</p>
+          <img class="profile-picture" src="icons/foto-candidato.png">
+        </div>
+        <div class="profile-picture-container-white">
+          <p class="candidato-name">Candidato 2</p>
+          <img class="profile-picture" src="icons/foto-candidato-2.png">
+        </div>
+        <div class="profile-picture-container-red">
+          <p class="candidato-name">Candidato 3</p>
+          <img class="profile-picture" src="icons/foto-candidato-3.png">
+        </div>
+        <div class="profile-picture-container-white">
+          <p class="candidato-name">Candidato 4</p>
+          <img class="profile-picture" src="icons/foto-candidato-4.png">
+        </div>
+        <div class="vote-for-container">
+          <button class="votar-button-white js-votar-por-candidato-1">Votar por candidato 1</button>
+          <div class="js-pop-up-vote-1">
+          </div>
+        </div>
+        <div class="vote-for-container">
+          <button class="votar-button-red js-votar-por-candidato-2">Votar por candidato 2</button>
+          <div class="js-pop-up-vote-2">
+          </div>
+        </div>
+        <div class="vote-for-container">
+          <button class="votar-button-white js-votar-por-candidato-3">Votar por candidato 3</button>
+          <div class="js-pop-up-vote-3">
+          </div>
+        </div>
+        <div class="vote-for-container">
+          <button class="votar-button-red js-votar-por-candidato-4">Votar por candidato 4</button>
+          <div class="js-pop-up-vote-4">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script src="/scripts/header-pop-up.js"></script>
+    <script type="module" src="scripts/render-pagina-de-votaciones.js"></script>
+  </body>
+</html>
