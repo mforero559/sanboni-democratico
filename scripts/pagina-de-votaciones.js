@@ -19,7 +19,7 @@ function renderVotes() {
       if (!isContentVisible) {
         popUp.innerHTML = `
           <p class="content-pop-up">¿Seguro que quieres votar por el candidato ${num}?</p>
-          <p class="content-pop-up">Recuerda revisar sus propuestas antes de confirmar.</p>
+          <p class="content-pop-up">Recuerda revisar sus propuestas antes de confirmar y votar con honestidad, respeto y responsabilidad.</p>
           <button class="si-votar-button js-si-votar-${num}">Sí, votar</button>
         `;
         popUp.classList.add('visible');

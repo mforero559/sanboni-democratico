@@ -146,3 +146,37 @@
   margin: 5px 5px;
   text-align: center;
 }
+
+.grid-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease, overflow 0.3s ease;
+}
+
+
+.contenedor:hover {
+  overflow: visible; 
+}
+
+.candidatos-foto {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  transform-origin: center;
+}
+
+
+.contenedor:hover .candidatos-foto {
+  transform: scale(1.5);
+}

@@ -1,3 +1,5 @@
+
+
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -40,8 +42,10 @@
 }
 
 .candidatos-proposals {
-  font-family:Lacquer;
-  font-size: 23px;
+  font-family:Cabin Sketch;
+  font-size: 27px;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .candidatos-container-white {
@@ -54,10 +58,42 @@
   background-color: red;
 }
 
+.grid-foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 230px;
+  overflow: hidden; 
+  transition: box-shadow 0.3s ease, transform 0.3s ease, overflow 0.3s ease;
+}
+
+
+.contenedor:hover {
+  overflow: visible; 
+}
 
 .candidatos-foto {
-  height: 150px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 30px;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  transform-origin: center;
+}
+
+
+.contenedor:hover .candidatos-foto {
+  transform: scale(1.5);
+}
+
+.propuestas {
+  font-family: Lacquer;
+  font-size: 20px;
+  margin-bottom: 10px;
 }

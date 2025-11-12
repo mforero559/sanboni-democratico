@@ -10,7 +10,7 @@ function renderPage() {
   document.querySelector('.voto-registrado').innerHTML = content;
 
   document.querySelector('.js-volver').addEventListener('click', function() {
-    window.location.href = "pagina-principal.html";
+    window.location.href = "index.html";
   });
 }
 
